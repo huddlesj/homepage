@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged
+FROM nginx
 
 copy html /usr/share/nginx/html
 
